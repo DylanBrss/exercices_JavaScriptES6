@@ -12,6 +12,8 @@ const bus = {
     equipments: ['sae', 'tft', 'speech']
 }
 
+console.log(Object.keys(bus)[1] + " : " + bus.id)
+
 //3.2 Object.values
 
-console.log(data)
+console.log(data);
